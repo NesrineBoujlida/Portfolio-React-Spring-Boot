@@ -1,0 +1,131 @@
+@import "../../global.scss";
+
+.intro {
+  background-color: white;
+  display: flex;
+
+
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 350px;
+      height: 350px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+      border-color: white;
+      margin-right: 200px;
+      margin-top: 150px;
+
+
+      img {
+        height: 100%;
+
+
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+    position: relative;
+
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      .button{
+        background-color: crimson;
+        color:white;
+
+ 
+
+         appearance: button;
+        backface-visibility: hidden;
+        width: 300px;
+        border-radius: 6px;
+       border-width: 0;
+       box-sizing: border-box;
+
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 45px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70%;
+  
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+ 
+  text-decoration: #fff;
+}
+
+
+        
+       
+     
+
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+
+
+      }
+      h2 {
+        font-size: 35px;
+        span {
+            
+            font-size: inherit;
+            color: crimson;
+          }
+      }
+      h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+        
+       
+
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
+
+
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+
+    }
+  }
+}

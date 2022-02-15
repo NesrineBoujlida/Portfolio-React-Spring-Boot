@@ -1,0 +1,37 @@
+.motivation{
+    background-color: white;
+    display:flex;
+    .right {
+      
+        flex: 0.5;
+        position: relative;
+    .para{
+        margin-top: 150px;
+        margin-left: 30px;
+        color:#4b435c;
+    }}
+        .left {
+            flex: 0.5;
+            overflow: hidden;
+
+            .imgContainer {
+                width: 500px;
+                height: 500px;
+                background-color: rgb(91, 150, 238);
+                border-radius: 50%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                float: right;
+                margin-top: 70px;
+                margin-right: 100px;
+          
+                img {
+                    height: 100%;
+            
+            
+                  }
+            }
+            
+            }
+}
